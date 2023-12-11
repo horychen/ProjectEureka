@@ -1,0 +1,39 @@
+Design Rule Check*
+
+*.zip
+*.MbaDoc
+
+
+
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+#useless dirs
+*/Project\ Outputs
+*/Project\ Logs
+Project Outputs for*
+
+#History
+*/History
+*/__Previews
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2

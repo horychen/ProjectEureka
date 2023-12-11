@@ -1,0 +1,8 @@
+Record=DiagramHierarchy|SourceDocument=MBS_Oshinoko.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 2|Source=PO_InverterFNC42060F\InverterFNC42060F.PrjPcb
+Record=SubProject|SourceDocument=MBS_Oshinoko.MbsDoc|ProjectPath=PO_InverterFNC42060F\InverterFNC42060F.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board Sensor 1|Source=PCBProject_SensorLEM\project3_SensorLEM.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|ProjectPath=PCBProject_SensorLEM\project3_SensorLEM.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 2|Source=PCBProject_InverterFNC42060F\project2_InverterBoard.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|ProjectPath=PCBProject_InverterFNC42060F\project2_InverterBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 1|Source=PCBProject_Extension28377dBGA\project1_ExtensionBoard.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc.MbsDoc|ProjectPath=PCBProject_Extension28377dBGA\project1_ExtensionBoard.PrjPcb
