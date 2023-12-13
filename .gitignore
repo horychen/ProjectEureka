@@ -18,7 +18,7 @@ __Previews
 *.log
 *.htm
 *.$$$
-
+*.step
 #useless dirs
 */Project\ Outputs
 */Project\ Logs
@@ -37,3 +37,4 @@ scripts/__pycache__/
 *.bak
 *.dwl
 *.dwl2
+/PCBProject_InverterFNC42060F/Kicad_inverter/inverter/production
