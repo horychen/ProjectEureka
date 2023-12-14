@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "inverter-altium-import")(type "KiCad")(uri "${KIPRJMOD}/inverter-altium-import.kicad_sym")(options "")(descr ""))
+)
