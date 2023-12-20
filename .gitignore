@@ -1,4 +1,5 @@
-
+# KiCAD plugin free routing design files
+*.dsn
 
 Design Rule Check*
 
