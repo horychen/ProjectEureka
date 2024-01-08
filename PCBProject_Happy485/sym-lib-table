@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "rs485_SN65HVD75_TestBoard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/rs485_SN65HVD75_TestBoard-altium-import.kicad_sym")(options "")(descr ""))
+)
