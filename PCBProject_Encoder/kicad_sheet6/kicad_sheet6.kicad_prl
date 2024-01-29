@@ -4,7 +4,9 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "AGND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
