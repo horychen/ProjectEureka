@@ -4,9 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "AGND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -66,7 +64,7 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "kicad_sheet6.kicad_prl",
