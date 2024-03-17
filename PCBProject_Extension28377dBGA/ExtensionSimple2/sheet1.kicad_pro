@@ -412,7 +412,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "1mmlab"
+      "1mmlab",
+      "Oshinoko2"
     ]
   },
   "meta": {
