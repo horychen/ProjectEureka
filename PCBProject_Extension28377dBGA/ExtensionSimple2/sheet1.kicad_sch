@@ -12496,7 +12496,7 @@
     (property "Value" "~" (at 711.2 421.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Oshinoko:DSP_240_0p6mm" (at 711.2 421.64 0)
+    (property "Footprint" "1mmlab_pcb_lib:DSP_240_SMD" (at 711.2 421.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 711.2 421.64 0)
