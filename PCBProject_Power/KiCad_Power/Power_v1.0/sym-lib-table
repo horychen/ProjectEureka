@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Power_v1.0-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Power_v1.0-altium-import.kicad_sym")(options "")(descr ""))
+)
