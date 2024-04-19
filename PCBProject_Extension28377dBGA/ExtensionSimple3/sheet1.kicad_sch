@@ -8495,6 +8495,31 @@
     )
   )
 
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 534.67 327.66 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0509ea18-a5cc-4839-be75-af8160e49f51)
+    (property "Reference" "#PWR015" (at 534.67 327.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 534.67 323.85 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 534.67 327.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 534.67 327.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid e141753a-ae50-487e-9e89-0c0f40185e92))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "sheet1-altium-import:root_1_TP-黄色测试点") (at 595.63 662.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 057657ff-3549-4f5c-a70e-607f41f526d8)
@@ -9181,6 +9206,31 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 861.06 421.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 122e7d9b-d08f-40f8-823b-31612e4ca5e9)
+    (property "Reference" "#PWR032" (at 861.06 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 861.06 417.83 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 861.06 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 861.06 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 4d9c29b7-c79c-4f02-bbb7-b31cace34a33))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -10551,31 +10601,6 @@
     )
   )
 
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 899.16 421.64 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3a123eeb-7aeb-420e-85b1-1ea618475447)
-    (property "Reference" "#PWR036" (at 899.16 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 899.16 417.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 899.16 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 899.16 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid aaec33e2-56a2-4a77-9162-5cf961179111))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "sheet1-altium-import:A+5V") (at 800.1 427.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a5296ec-3c35-41f7-bf52-9f1f5e0266ad)
@@ -11671,31 +11696,6 @@
     )
   )
 
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 861.06 421.64 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 509ccc44-909b-4cad-9651-bdb492c8bef5)
-    (property "Reference" "#PWR032" (at 861.06 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 861.06 417.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 861.06 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 861.06 421.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 3ff034d2-a422-4e78-b75c-554280b6f87f))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "sheet1-altium-import:root_1_Cap") (at 850.9 652.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52a746b6-ace5-4f3a-a673-282f97e3b239)
@@ -12308,36 +12308,6 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR027") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 582.93 349.25 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5e4d6a34-587a-4da3-96e5-893e26865ad4)
-    (property "Reference" "#PWR018" (at 582.93 349.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 582.93 345.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 582.93 349.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 582.93 349.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 10643bbe-5e85-45e9-bb4e-c3ca48de2fc0))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-      (project "pcb5"
-        (path "/c9979d34-4f34-40f0-9fff-955f110a3714"
-          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -13677,36 +13647,6 @@
     )
   )
 
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 534.67 306.07 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 84e10f70-c01a-43c9-9746-0ed6ce0347c3)
-    (property "Reference" "#PWR0114" (at 534.67 306.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 534.67 302.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 534.67 306.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 534.67 306.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 8887ae60-d1f4-423f-a737-3cf6a378ce1e))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR0114") (unit 1)
-        )
-      )
-      (project "pcb5"
-        (path "/c9979d34-4f34-40f0-9fff-955f110a3714"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "sheet1-altium-import:-12") (at 816.61 530.86 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 857054fd-6f98-4262-8ced-aaebf27de1ba)
@@ -13752,6 +13692,31 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 534.67 306.07 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 85d933d5-4254-4c66-80b2-3c2a94f688fe)
+    (property "Reference" "#PWR012" (at 534.67 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 534.67 302.26 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 534.67 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 534.67 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 8304e696-7a6b-4b50-8b9e-b038f63c4e1d))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -13937,6 +13902,31 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR052") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 899.16 421.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 94ea50ff-140a-4b6b-bd57-a106b880e89e)
+    (property "Reference" "#PWR036" (at 899.16 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 899.16 417.83 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 899.16 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 899.16 421.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid fe86cffb-b747-4bd0-84c1-acb140789a36))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -14470,36 +14460,6 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR073") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 535.94 350.52 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a6e30978-9e88-4743-8d0f-59c0c2bbffb2)
-    (property "Reference" "#PWR015" (at 535.94 350.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 535.94 346.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 535.94 350.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 535.94 350.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 7df27944-14be-482a-8ab1-b6bcef7f4c99))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR015") (unit 1)
-        )
-      )
-      (project "pcb5"
-        (path "/c9979d34-4f34-40f0-9fff-955f110a3714"
-          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -15791,36 +15751,6 @@
     )
   )
 
-  (symbol (lib_id "sheet1-altium-import:REF_3V") (at 534.67 327.66 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cee5f8cc-016d-4a1f-9838-be512f10621a)
-    (property "Reference" "#PWR012" (at 534.67 327.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "REF_3V" (at 534.67 323.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 534.67 327.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 534.67 327.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 823c0f2e-3e94-4f9e-8873-00f279250996))
-    (instances
-      (project "sheet1"
-        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "pcb5"
-        (path "/c9979d34-4f34-40f0-9fff-955f110a3714"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "sheet1-altium-import:VDD") (at 419.735 350.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf9b19e1-77c4-454e-b53a-52b1c3f8d644)
@@ -16084,6 +16014,31 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR051") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 535.94 350.52 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d8a22529-0f5d-467b-bcdf-f1fd9a6c134f)
+    (property "Reference" "#PWR018" (at 535.94 350.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 535.94 346.71 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 535.94 350.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 535.94 350.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 7613c675-a9c2-4f70-b5fe-9e1a04e750cb))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -16776,6 +16731,31 @@
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "sheet1-altium-import:VDD") (at 582.93 349.25 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ec1d143b-11d6-4df7-ae16-ec568bea5b18)
+    (property "Reference" "#PWR077" (at 582.93 349.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 582.93 345.44 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 582.93 349.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 582.93 349.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 288b8654-0ac7-4eca-82e7-f3ef71d5b80f))
+    (instances
+      (project "sheet1"
+        (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
+          (reference "#PWR077") (unit 1)
         )
       )
     )
