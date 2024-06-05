@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "SensorLEM-altium-import")(type "KiCad")(uri "${KIPRJMOD}/SensorLEM-altium-import.kicad_sym")(options "")(descr ""))
-)
