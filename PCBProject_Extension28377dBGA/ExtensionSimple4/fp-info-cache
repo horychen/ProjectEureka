@@ -1,4 +1,4 @@
-22285957323861693
+22287967881988652
 1mmlab_footprint
 381S-4
 
@@ -102,8 +102,8 @@ DSP_240_P1B
 
 
 0
-80
-80
+84
+84
 1mmlab_footprint
 DSP_240_P1C
 
@@ -85007,6 +85007,13 @@ Integrated Circuit
 0
 20
 20
+SamacSys_Parts
+SOT95P280X100-5N
+S5 Package 5-Lead Plastic TSOT-23
+Integrated Circuit
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
