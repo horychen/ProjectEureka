@@ -15074,7 +15074,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 952.5 386.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad844cc5-15b8-4691-b7c4-c718cf3a2e86)
-    (property "Reference" "UART6" (at 949.96 386.08 0)
+    (property "Reference" "ECAP2" (at 949.96 386.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 949.96 388.62 0)
@@ -15095,7 +15095,7 @@
     (instances
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "UART6") (unit 1)
+          (reference "ECAP2") (unit 1)
         )
       )
     )
@@ -16840,7 +16840,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 887.73 386.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc031f1b-43f9-4832-8734-ce3fae539730)
-    (property "Reference" "UART5" (at 885.19 386.08 0)
+    (property "Reference" "ECAP1" (at 885.19 386.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 885.19 388.62 0)
@@ -16861,7 +16861,7 @@
     (instances
       (project "sheet1"
         (path "/54840d93-b842-4275-b1cb-4ec5510cbfff"
-          (reference "UART5") (unit 1)
+          (reference "ECAP1") (unit 1)
         )
       )
     )
