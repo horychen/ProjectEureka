@@ -33,6 +33,14 @@ This means:
 2. Suitable for organizing cables in a user-friendly manner.
 
 ## Liscence
+GPLv3
 
-No liscence yet
-选一个GNU的强迫开源liscence吧
+## Other Similar Projects
+
+Odrive and VESC are two famous projects that support the control of a three-phase motor.
+There are inverter designs that are compatible with them, see e.g., [Axiom](https://hackaday.io/project/164932-axiom-100kw-motor-controller). Other similar but less known hardwares can also be found, see e.g., [moteus-c1](https://jpieper.com/2024/04/30/moteus-c1/).
+
+ProjectEureka! is, however, focusing on the more advanced topic of a complicated system that requires extendable hardwares.
+In this sense, there is indeed one similar purpose project that is based on Xilinx, i.e., [the AMDC platform from the group of Prof. Eric L. Severson](https://amdc.dev/). See also [its doc](https://docs.amdc.dev/getting-started/user-guide/host-interface/index.html).
+
+As a comparison, ProjectEureka! currently only supports 28379D that has one CLB module of a very limited FPGA capability.
