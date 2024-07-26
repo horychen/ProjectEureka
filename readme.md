@@ -2,7 +2,7 @@
 
 ProjectEureka seeks to streamline the intricate design of robot systems, including communication, cable arrangements, and synchronization, by integrating several motor drivers (up to four) with a single microcontroller (DSP2837xD). This can also be utilized as a testing platform for bearingless motor or any other kind of AC motors. For access to example codes, please visit the following link: [here](https://github.com/horychen/ProjectPanGu-C) for cpu01 code, and [here](https://github.com/horychen/ProjectPanGuCpu2) for cpu02 code. Displayed below is an image representing the previous version.
 
-![inverter](F:/ProjectEureka/assets/inverter-1721237191608-3.jpg)
+![inverter-3d-view](https://github.com/horychen/ProjectEureka/blob/master/assets/inverter-1721237191608-3.jpg)
 
 ## Software
 
@@ -41,6 +41,6 @@ Odrive and VESC are two famous projects that support the control of a three-phas
 There are inverter designs that are compatible with them, see e.g., [Axiom](https://hackaday.io/project/164932-axiom-100kw-motor-controller). Other similar but less known hardwares can also be found, see e.g., [moteus-c1](https://jpieper.com/2024/04/30/moteus-c1/).
 
 ProjectEureka! is, however, focusing on the more advanced topic of a complicated system that requires extendable hardwares.
-In this sense, there is indeed one similar purpose project that is based on Xilinx, i.e., [the AMDC platform from the group of Prof. Eric L. Severson](https://amdc.dev/). See also [its doc](https://docs.amdc.dev/getting-started/user-guide/host-interface/index.html).
+In this sense, there is indeed one similar purpose project that is based on Xilinx, i.e., [the AMDC platform from the group of Prof. Eric L. Severson](https://amdc.dev/). See also [its doc](https://docs.amdc.dev/getting-started/user-guide/host-interface/index.html) and [its blog post](https://severson.wempec.wisc.edu/2022/02/11/introducing-the-advanced-motor-drive-controller/).
 
 As a comparison, ProjectEureka! currently only supports 28379D that has one CLB module of a very limited FPGA capability.
