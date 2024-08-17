@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "sensorLEM_portable-altium-import")(type "KiCad")(uri "${KIPRJMOD}/sensorLEM_portable-altium-import.kicad_sym")(options "")(descr ""))
+)
