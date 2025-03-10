@@ -38,7 +38,7 @@ GPLv3
 ## Other Similar Projects
 
 Odrive and VESC are two famous projects that support the control of a three-phase motor.
-There are inverter designs that are compatible with them, see e.g., [Axiom](https://hackaday.io/project/164932-axiom-100kw-motor-controller). Other similar but less known hardwares can also be found, see e.g., [moteus-c1](https://jpieper.com/2024/04/30/moteus-c1/).
+There are inverter designs that are compatible with them, see e.g., [Axiom](https://hackaday.io/project/164932-axiom-100kw-motor-controller). Other similar but less known hardwares can also be found, see e.g., [moteus-c1](https://jpieper.com/2024/04/30/moteus-c1/). Yet another project I recently found is [STMBL](https://github.com/rene-dev/stmbl?tab=readme-ov-file) for STM32 microprocessor.
 
 ProjectEureka! is, however, focusing on the more advanced topic of a complicated system that requires extendable hardwares.
 In this sense, there is indeed one similar purpose project that is based on Xilinx, i.e., [the AMDC platform from the group of Prof. Eric L. Severson](https://amdc.dev/). See also [its doc](https://docs.amdc.dev/getting-started/user-guide/host-interface/index.html) and [its blog post](https://severson.wempec.wisc.edu/2022/02/11/introducing-the-advanced-motor-drive-controller/).
