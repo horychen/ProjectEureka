@@ -10996,7 +10996,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 267950d4-1da3-4a46-84ed-ec50f0f1c36d)
   )
-  (label "DSP_PWM3~{_ENABL}E" (at 280.67 745.49 180) (fields_autoplaced)
+  (label "DSP_PWM4~{_ENABL}E" (at 280.67 745.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 270106e6-3cc5-4e95-9079-832cf9405224)
   )
